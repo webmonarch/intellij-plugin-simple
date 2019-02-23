@@ -20,6 +20,7 @@
         <lang.syntaxHighlighterFactory language="Simple" implementationClass="com.simpleplugin.SimpleSyntaxHighlighterFactory"/>
         <colorSettingsPage implementation="com.simpleplugin.SimpleColorSettingsPage"/>
         <annotator language="JAVA" implementationClass="com.simpleplugin.SimpleAnnotator"/>
+        <codeInsight.lineMarkerProvider language="JAVA" implementationClass="com.simpleplugin.SimpleLineMarkerProvider"/>
     </extensions>
 
     <actions>
