@@ -16,6 +16,7 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <fileTypeFactory implementation="com.simpleplugin.SimpleFileTypeFactory"/>
+        <lang.parserDefinition language="Simple" implementationClass="com.simpleplugin.SimpleParserDefinition"/>
     </extensions>
 
     <actions>
