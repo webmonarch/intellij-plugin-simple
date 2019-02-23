@@ -26,4 +26,12 @@ public class SimplePropertyImpl extends ASTWrapperPsiElement implements SimplePr
     else super.accept(visitor);
   }
 
+  public String getKey() {
+    return SimplePsiImplUtil.getKey(this);
+  }
+
+  public String getValue() {
+    return SimplePsiImplUtil.getValue(this);
+  }
+
 }
