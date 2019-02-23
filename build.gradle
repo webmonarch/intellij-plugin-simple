@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'idea'
     id 'org.jetbrains.intellij' version '0.4.2'
 }
 
@@ -11,6 +12,21 @@ sourceCompatibility = 1.8
 repositories {
     mavenCentral()
 }
+
+sourceSets {
+    main {
+        java {
+            srcDirs += 'src/main/gen'
+        }
+    }
+}
+
+idea {
+    module {
+        generatedSourceDirs += file('src/main/gen')
+    }
+}
+
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'

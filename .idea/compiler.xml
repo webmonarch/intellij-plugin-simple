@@ -11,5 +11,10 @@
       <entry name="!?*.kt" />
       <entry name="!?*.clj" />
     </wildcardResourcePatterns>
+    <bytecodeTargetLevel>
+      <module name="com.simpleplugin.SimplePlugin.buil" target="1.8" />
+      <module name="com.simpleplugin.SimplePlugin.gener" target="1.8" />
+      <module name="com.simpleplugin.SimplePlugin.java" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
